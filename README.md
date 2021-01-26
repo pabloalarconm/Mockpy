@@ -1,16 +1,15 @@
-# welcome to mockpy
+## Welcome to mockpy
 
 Dataframe editor for tidy data management and reusability
 
-# Functions:
+### Functions:
 
-## column_editor(dict) Use a Python dict() to edit Columns names, like this:
+column_editor(dict) Use a Python dict() to edit Columns names, like this:
   ```python3
 {'Prev_column_name':'New_name','Prev_column_name_2':'New_name_2'}
   
 ```
-
-## content_replacement(json) Use JSON structure for applying replacements at Dataframe information, like this:
+content_replacement(json,innewplace) Use JSON structure for applying replacements at Dataframe information, like this:
   ```python3
 {
     'Column_name_X': {
