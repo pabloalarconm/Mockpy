@@ -1,4 +1,4 @@
-# mockpy
+# welcome to mockpy
 
 Dataframe editor for tidy data management and reusability
 
@@ -6,7 +6,7 @@ Dataframe editor for tidy data management and reusability
 
 ## column_editor(dict) Use a Python dict() to edit Columns names, like this:
   ```python3
-  {'Prev_column_name':'New_name','Prev_column_name_2':'New_name_2'}
+{'Prev_column_name':'New_name','Prev_column_name_2':'New_name_2'}
   
 ```
 
@@ -23,12 +23,15 @@ Dataframe editor for tidy data management and reusability
 }
   
 ```
-            
+innewplace parameter must be added:
+True: If you want to add changes to a duplicated column
+False: If you want to apply these changes to original column
+
 ```python3
 import mockpy.mockpy as m
 import json
 import pandas as pd
-data_trial= pd.ExcelFile("/home/pablo/Desktop/EJP-RD/rml_yarrrml/mock data/mock data_original/Mock registry Adiposis dolorosa.xlsx")
+data_trial= pd.ExcelFile("/home/yourroot/dataframe.xlsx")
 
 df=data_trial.parse()
 
