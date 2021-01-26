@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: mockpy
+Version: 0.1.1
+Summary: Light-weight Dataframe editor for tidy data management
+Home-page: https://github.com/pabloalarconm/mockpy
+Author: Pablo Alarcón Moreno
+Author-email: pabloalarconmoreno@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: Tidy Dataframe Editor
+Platform: UNKNOWN

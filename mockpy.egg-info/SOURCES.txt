@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+mockpy/__init__.py
+mockpy/mockpy.py
+mockpy.egg-info/PKG-INFO
+mockpy.egg-info/SOURCES.txt
+mockpy.egg-info/dependency_links.txt
+mockpy.egg-info/top_level.txt
